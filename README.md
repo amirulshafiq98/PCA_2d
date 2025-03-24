@@ -53,13 +53,13 @@ Finally, I plotted the graphs using matplotlib along with the explained variance
 ![PCA end](https://github.com/user-attachments/assets/4564eda4-881f-47e6-8881-a2f7c7f8d988)
 
 
-### Data Preprocessing:
+### PCA Implementation:
 - Standardised textural property values using StandardScalar to ensure compatibility
 - Applied PCA (Principal Component Analysis) to reduce dimensionality while retaining key information highlighting trends
 
 ![PCA Biplot](https://github.com/user-attachments/assets/0f15c7dd-7927-406d-926c-75647e973bb2)
 
-### PCA Implementation:
+### Correlation factor and Feature Influence:
 
 - Extracted principal components (PC1) and (PC2), which explain the majority of variance in sensory attributes
 - Calculated correlation factors (loadings) to determine how each textural property influences the principal components
